@@ -15,6 +15,15 @@ to end there.
 Nothing fancy on the interface. The point was to actually run every concept from
 the module against a live chain, not to build a pretty UI.
 
+## Built on Midnight
+
+Built on [Midnight](https://midnight.network), a privacy-focused blockchain. This
+project drives the Midnight **wallet SDK** directly — key derivation, chain sync,
+NIGHT and DUST balances, DUST registration, and real unshielded NIGHT transfers —
+against Preprod, Preview, or a local devnet. It's the wallet-and-transactions
+companion to my Compact smart-contract projects; this repo is the wallet side, not
+a Compact contract.
+
 ## What it does
 
 - `address` — derive and print my unshielded + shielded addresses. Pure key math,

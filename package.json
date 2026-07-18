@@ -1,0 +1,23 @@
+{
+  "name": "midnight-cli-wallet",
+  "version": "1.0.0",
+  "description": "A small command-line wallet for the Midnight **Preprod** testnet, built as the capstone for the Midnight Academy wallet module. It runs the whole developer-facing surface of the wallet stack from my own code: derive addresses, sync safely, read balances, register NIGHT for DUST, and send a real unshielded transfer against live infrastructure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@midnight-ntwrk/midnight-js-protocol": "^4.1.1",
+    "@midnight-ntwrk/wallet-sdk": "^1.2.0",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}

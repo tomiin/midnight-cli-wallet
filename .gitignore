@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+seed.json
+
+# Local wallet sync checkpoint (not secret, but machine-local)
+wallet-checkpoint.json
+wallet-checkpoint.json.tmp
+wallet-checkpoint-*.json
+wallet-checkpoint-*.json.tmp
